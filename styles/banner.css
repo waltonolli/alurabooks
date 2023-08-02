@@ -20,6 +20,7 @@
     height: 2.5em;
     border-radius: 24px;
     width: 22.5em;
+    padding: 0.5em 0;
     background-color: transparent;
     border: 1px solid var(--color-white);
     color: var(--color-white);
