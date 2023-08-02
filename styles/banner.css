@@ -17,11 +17,12 @@
 }
 
 .banner__search {
-    background-color: transparent;
-    border: 1px solid var(--color-white);
     border-radius: 24px;
     padding: 0.5em;
     width: 22em;
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
 }
 
 .banner__search::placeholder {
@@ -31,6 +32,10 @@
     color: var(--color-white);
     background: url("../img/search.svg") no-repeat;
     background-position: 0.5em;
+}
+
+.banner__search:focus {
+    outline: none;
 }
 
 @media screen and (min-width: 1440px) {

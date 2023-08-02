@@ -40,6 +40,10 @@
     background-position: 14% center;
 }
 
+.subscription__email:focus {
+    outline: none;
+}
+
 @media screen and (min-width: 900px) {
     .subscription {
         display: flex;
