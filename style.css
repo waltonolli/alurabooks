@@ -1,0 +1,36 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carousel.css");
+@import url("styles/topics.css");
+@import url("styles/subscription.css");
+@import url("styles/footer.css");
+
+:root {
+    --color-banckground-primary: #EBECEE;
+    --color-white: #FFFFFF;
+    --color-orange: #EB9800;
+    --color-gradient-blue: linear-gradient(160deg, #000F52 0%, #326589 100%);
+    --color-blue: #002F52;
+    --color-black: #000;
+    --color-gray: #474646;
+    --color-lightgray: #858585;
+    --font-main: "Poppins";
+    --font-second: "Josefin Sans";
+
+    --size-text-main: 0.9rem; 
+    --size-text-title: 1.2rem; 
+    --size-text-subtitle: 1rem; 
+    --size-text-title-1024: 2rem; 
+    --size-text-title-carousel: 1.5rem;
+    --size-text-subtitle-1024: 1.5rem; 
+
+    
+    
+}
+
+body {
+    background-color: var(--color-banckground-primary);
+    font-family: var(--font-main);
+    font-size: var(--size-text-main);
+    font-weight: 400;
+}

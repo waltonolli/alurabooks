@@ -1,0 +1,66 @@
+.subscription {
+    background-color: var(--color-white);
+    padding: 2em 0;
+    text-align: center;
+}
+
+.subscription__title,
+.subscription__text {
+    background: var(--color-gradient-blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subscription__title {
+    font-size: var(--size-text-title);
+    font-weight: 500;
+}
+
+.subscription__text {
+    font-weight: 300;
+    font-size: var(--size-text-subtitle);
+    margin: 1em 0;
+}
+
+.subscription__email {
+    padding: 0.6em;
+    border: 1px solid var(--color-blue);
+    border-radius: 24px;
+    width: 20em;
+    color: var(--color-blue);
+}
+
+.subscription__email::placeholder {
+    font-family: var(--font-main);
+    text-align: center;
+    color: var(--color-blue);
+    padding: 1em 0;
+    background: url("/img/Email.svg") no-repeat;
+    background-position: 14% center;
+}
+
+@media screen and (min-width: 900px) {
+    .subscription {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .subscription__description {
+        margin-right: 1em;
+        width: 40%;
+    }
+
+    .subscription__title {
+        font-size: var(--size-text-subtitle-1024);
+    }
+    .subscription__text {
+        font-size: var(--size-text-title);
+    }
+
+    .subscription__email {
+        width: 30%;
+    }
+}
