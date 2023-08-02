@@ -18,8 +18,8 @@
 
 .banner__search {
     border-radius: 24px;
-    padding: 0.7em;
-    width: 22em;
+    padding: 0.6em;
+    width: 22.5em;
     background-color: transparent;
     border: 1px solid var(--color-white);
     color: var(--color-white);
@@ -30,9 +30,9 @@
     font-weight: 400;
     text-align: center;
     color: var(--color-white);
-    padding: 0.7em 0 0.7em;
+    padding: 1em 0;
     background: url("../img/search.svg") no-repeat;
-    background-position: 0.5em;
+    background-position: 2% center;
 }
 
 .banner__search:focus {
