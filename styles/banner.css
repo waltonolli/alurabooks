@@ -30,6 +30,7 @@
     font-weight: 400;
     text-align: center;
     color: var(--color-white);
+    padding: 0.7em 0 0.7em;
     background: url("../img/search.svg") no-repeat;
     background-position: 0.5em;
 }
