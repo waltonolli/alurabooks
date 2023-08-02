@@ -30,7 +30,7 @@
     font-weight: 400;
     text-align: center;
     color: var(--color-white);
-    padding: 1em 0;
+    /* padding: 1em 0; */
     background: url("../img/search.svg") no-repeat;
     background-position: 2% center;
 }
